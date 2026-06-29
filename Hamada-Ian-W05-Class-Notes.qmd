@@ -1,0 +1,267 @@
+---
+title: "Week 5 Class Notes"
+subtitle: "IBM 3202"
+author: "Ian Hamada"
+date: today
+format: 
+  html: 
+    toc: true
+    toc-depth: 4
+    number-sections: true
+    code-line-numbers: true
+    code-fold: false
+    code-link: true
+    embed-resources: true
+editor: visual
+execute: 
+  freeze: auto
+  warning: false
+  error: true
+---
+
+# Class Overview
+
+Today’s class focused on creating class notes in Quarto and publishing them as a webpage. The professor demonstrated the process using Positron, but I followed along using RStudio. The exact buttons and interface were different for me, but the overall workflow was the same.
+
+The main purpose of the activity was to practice creating a Quarto `.qmd` file, rendering it into HTML, using Git and GitHub to track the project, and publishing the final HTML file through GitHub Pages.
+
+The basic workflow was:
+
+1. Create a project folder.
+2. Create a Quarto `.qmd` file.
+3. Add a YAML header.
+4. Write organized class notes using headings.
+5. Render the `.qmd` file into an HTML file.
+6. Use Git and GitHub to track and publish the files.
+7. Use GitHub Pages to make the HTML file available as a public webpage.
+8. Add the GitHub Pages URL in the Appendix section.
+
+# Portfolio Website Project
+
+The professor reviewed the portfolio website project. He explained that this project is important because it works like the final project or final exam for the course. Instead of testing only what students know, the portfolio website shows what students can actually create and publish.
+
+The website should bring together different pieces of work into one organized place. The professor said students can include work from this class, other classes, internships, jobs, or other experiences. The goal is to create a professional website that shows useful skills and completed projects.
+
+The portfolio website can include:
+
+- a homepage
+- a marketing or analytics project
+- a dashboard
+- a Reveal.js presentation
+- a Google Analytics connection
+- other school, internship, or work projects
+
+The professor explained that the website should not just be a random collection of files. It should be organized, polished, and easy for an audience to navigate.
+
+# Reusing Previous Work
+
+The professor emphasized that we do not need to create everything from scratch for the portfolio website. We can reuse and improve work from previous assignments.
+
+For example, a previous presentation can be used for the Reveal.js presentation section. A dashboard assignment can become the dashboard section of the website. Other class projects can also be added to the portfolio if they show useful skills.
+
+The portfolio website is a way to consolidate different pieces of work into one place. It gives structure to work that may otherwise be spread across different files, assignments, or webpages.
+
+# Quarto Websites
+
+The professor explained that a website usually needs a homepage. In Quarto, the homepage is commonly created with an `index.qmd` file. When the file is rendered, Quarto creates an `index.html` file.
+
+The professor explained that websites normally look for an `index.html` file as the main page. This is why the homepage file is important.
+
+He also showed that a homepage can include short descriptions and links to other pages. For example, a homepage might link to a presentation page, a codebook page, a hands-on practice page, or an assignment page.
+
+# Dashboards and Shiny Apps
+
+The professor also talked about dashboards. A dashboard can be static or interactive. A static dashboard displays information without user interaction. An interactive dashboard allows users to change filters, dates, variables, or other inputs.
+
+He explained that Shiny is a useful tool for creating interactive dashboards and web apps. Shiny can be used in R and Python. With Shiny, users can interact with charts and outputs by changing inputs.
+
+The professor also mentioned Shiny Live. Regular Shiny apps usually require a server, but Shiny Live can make some interactive work easier to share without a traditional server. He said this kind of skill can be useful for students interested in analytics, business analytics, or data science jobs.
+
+# Assignment Deadline Discussion
+
+A student asked about the final project deadline because it appeared to be after the regular end date of the class. The professor explained that there is no separate final exam. The portfolio website project is being treated like the final exam.
+
+He said the project is important because it tests what students can actually do, not just what they know. Instead of answering exam questions, students are showing that they can create, organize, publish, and share professional work.
+
+The professor also discussed deadline adjustments because of the July 4 holiday. He said he tried not to assign work directly on the holiday period. He also said that if students needed more time for webpage-related work, he was okay with students using the earlier part of the following week.
+
+He also mentioned that if students submitted something incomplete because they ran out of time, they were welcome to resubmit.
+
+# AI Tools
+
+The professor asked whether students had been approved for GitHub Copilot. Some students said they had been rejected multiple times. The professor said that GitHub may require proof of current student status and multi-factor authentication.
+
+He also discussed Claude as another AI tool. He said Claude has a free version, but it has usage limits. After a long conversation, Claude may require the user to wait before continuing. However, he said the free version should be enough for normal student work.
+
+The professor also showed Positron’s AI features. He said Positron uses Claude as part of its AI system, but he felt that using Claude directly may sometimes work better than the built-in Positron AI.
+
+# Creating the Class Note Project
+
+The professor demonstrated creating the class note project in Positron. I was using RStudio, so my interface was different, but the idea was the same.
+
+He said he prefers creating the project folder first and then opening that folder in the IDE. This helps avoid confusion.
+
+A possible folder name was:
+
+`w05-classnote`
+
+Inside that folder, students should create a Quarto file. My file name can be:
+
+`Hamada-Ian-W05-Class-Notes.qmd`
+
+The notes can include text, code, or both. For today’s activity, the notes were mostly text, so headings and paragraphs were enough.
+
+# YAML Header
+
+The professor explained that every Quarto file should begin with a YAML header. The YAML header controls the title, subtitle, author, date, output format, table of contents, section numbering, and other document settings.
+
+He said students can copy a YAML header from a previous assignment if they do not remember the structure. He also explained that the `execute` section should be separate from the `format` section.
+
+The YAML header at the top of this file includes:
+
+- title
+- subtitle
+- author
+- date
+- HTML output format
+- table of contents
+- numbered sections
+- embedded resources
+
+# Writing Notes in Quarto
+
+The professor explained that if the notes are mostly text, it may be easier to write them in visual mode. Since I was using RStudio, I could use either Source mode or Visual mode.
+
+The notes should be organized with headings. Possible sections include:
+
+- Class Overview
+- Assignment Deadline Adjustments
+- GitHub and GitHub Pages
+- Appendix
+
+The professor said he would show the publishing process, but the actual note-taking is the student’s responsibility. The important thing is to create a good amount of organized notes that explain what happened in class.
+
+# Rendering the Quarto File
+
+After writing the notes, the `.qmd` file should be rendered into HTML. In RStudio, this is done by clicking the **Render** button.
+
+Rendering creates the `.html` file from the `.qmd` file. After rendering, I should open the HTML file and make sure it looks correct.
+
+The rendered HTML should have:
+
+- the correct title
+- my name as the author
+- clear section headings
+- readable notes
+- a table of contents
+- the Appendix section
+
+# The `.gitignore` File
+
+The professor also explained the `.gitignore` file. A `.gitignore` file tells Git which files or folders should not be uploaded to GitHub.
+
+This is important because if a GitHub repository is public, other people may be able to see the files. Students should avoid uploading private, unnecessary, or sensitive files.
+
+The `.gitignore` file has no normal file extension. The whole file name is:
+
+`.gitignore`
+
+# Git and Source Control
+
+The professor demonstrated the Git workflow in Positron. Since I was using RStudio, the exact interface was different, but the Git process was still the same.
+
+The basic Git workflow is:
+
+1. Initialize the repository.
+2. Stage the files.
+3. Write a commit message.
+4. Commit the files.
+5. Push the files to GitHub.
+
+Staging means selecting the files that will be included in the commit. A commit message is required and should briefly describe what changed. For the first commit, a simple message like `initial commit` is acceptable.
+
+# Publishing to GitHub
+
+The professor showed how to publish the project to GitHub using Positron. In Positron, he used the Source Control panel and the Publish Branch button.
+
+In RStudio, the process is different. I may need to create a GitHub repository first, connect my local project to that repository, commit my files, and then push the files to GitHub.
+
+Even though Positron and RStudio look different, the goal is the same: get the `.qmd` file and rendered `.html` file into a GitHub repository.
+
+The professor also explained that the repository should be public if he needs to access it.
+
+# GitHub Pages
+
+The professor explained that GitHub and GitHub Pages are different.
+
+The regular GitHub repository URL uses:
+
+`github.com`
+
+The published GitHub Pages website uses:
+
+`github.io`
+
+The GitHub repository stores the project files. GitHub Pages hosts the rendered HTML file as a public webpage.
+
+For this assignment, the GitHub Pages URL is the important webpage link because it shows the rendered class notes as a website.
+
+# Setting Up GitHub Pages
+
+The professor showed that after publishing the files to GitHub, students may need to go to the GitHub repository settings and turn on GitHub Pages.
+
+The general steps are:
+
+1. Open the GitHub repository.
+2. Go to **Settings**.
+3. Go to **Pages**.
+4. Choose the source as a branch.
+5. Select the `main` branch.
+6. Use the root directory for a single-page assignment.
+7. Save the settings.
+8. Wait for GitHub Pages to publish the page.
+
+For a larger website with multiple pages, the professor said the setup may use a `docs` folder. For this single class note page, using the root directory is enough.
+
+# Checking the Published Page
+
+After GitHub Pages is enabled, GitHub provides a public website URL. The professor explained that the URL should use `github.io`, not `github.com`.
+
+Sometimes the first GitHub Pages link may show a 404 error. This can happen if the page is not ready yet or if the URL does not include the correct HTML file name.
+
+The correct URL may need to include the repository name and the HTML file name, such as:
+
+`https://imhamada1.github.io/IBM-3202-Week-5-Class-Notes/`
+
+# Submission Requirements
+
+The professor explained that for the assignment, students should submit both the `.qmd` file and the `.html` file.
+
+He still wants the GitHub Pages URL included in the notes, but submitting the `.qmd` and `.html` files is important because it gives evidence of the work even if the GitHub Pages publishing does not work perfectly.
+
+The files to submit should be:
+
+- `Hamada-Ian-W05-Class-Notes.qmd`
+- `Hamada-Ian-W05-Class-Notes.html`
+
+# Important Takeaways
+
+The main takeaway from class is that we are practicing how to turn class notes into a published webpage. This is practice for the larger portfolio website project.
+
+The workflow connects several skills:
+
+- writing in Quarto
+- rendering HTML
+- organizing files
+- using Git
+- using GitHub
+- publishing with GitHub Pages
+- sharing a professional webpage URL
+
+This process is important because it helps students learn how to document and share their work publicly.
+
+
+# Appendix
+
+- My webpage for this work: [https://imhamada1.github.io/IBM-3202-Week-5-Class-Notes/](https://imhamada1.github.io/IBM-3202-Week-5-Class-Notes/)
+
